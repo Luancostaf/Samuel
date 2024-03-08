@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+        body {
+        min-height: 100vh;
+        background: url('./assets/kitty.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        top: 25%;
+        left: 40%;
+        }
+        .box p {
+            font-size: 50px;
+            position: absolute;
+            top: 8%;
+            left: 33%;
+        }
+
+        .buttons-container button {
+            background-color: #FFC0CB; /* Rosa claro */
+            border: 2px solid black; /* Borda preta */
+            color: rgb(0, 0, 0); /* Cor do texto */
+            padding: 10px 40px; /* Espaçamento interno */
+            font-size: 30px; /* Tamanho do texto */
+            cursor: pointer; /* Muda o cursor para indicar que é clicável */
+            transition: background-color 0.3s, color 0.3s; /* Suaviza a transição de cores */
+            border-radius: 5px; /* Bordas arredondadas */
+            font-family: "Madimi One", sans-serif;
+        }
+
+        .buttons-container:hover {
+            background-color: #FFB6C1; /* Uma tonalidade de rosa um pouco mais escura ao passar o mouse */
+            color: white; /* Cor do texto ao passar o mouse */
+        }
+
+        .buttons-container .s {
+            position: absolute;
+            top: 40%;
+            left: 38%;
+        }
+
+        .buttons-container .n {
+            position: absolute;
+            top: 40%;
+            left: 52%;
+            color: blue;   
+        }
+
+
+        
